@@ -1,0 +1,78 @@
+.infobox2{
+    display: block;
+    margin: auto;
+    height: 8.5rem;
+    padding: 1rem;
+    background-color:white;
+    border-radius: 1rem;
+    /* box-shadow:0px 0px 0.5rem rgba(0, 0, 0, .1); */
+}
+/* plantoDetail의 현재 상태 */
+.infobox3{
+    display: flex;
+    margin: auto;
+    height: 8.5rem;
+    padding: 1rem;
+    background-color:white;
+    border-radius: 1rem;
+    /* box-shadow:0px 0px 0.5rem rgba(0, 0, 0, .1); */
+}
+.moreinfo{
+    height: auto;
+    background-color:white;
+
+}
+
+
+.infoDetail{
+    width: 17rem;
+    margin: auto;
+    
+
+}
+.carousel{
+    width: 22rem;
+    height: auto;
+    
+}
+.slick-prev:before {
+    opacity: 0;
+    color: rgb(59, 159, 49); 
+    left: 0;
+  }
+.slick-next:before {
+opacity: 0;
+color: rgb(59, 159, 49);
+}
+.slick-list{
+    height: auto;
+}
+
+.carouseltitle{
+    text-align: center;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+.morebtn{
+    margin-left: 14rem;
+    color:#a4a4a4;
+    font-size: 0.9rem;
+    text-align: center;
+    /* border:1px solid #a4a4a4; */
+    border-radius: 15rem;
+    width: 3.6rem;
+    height: 1.4rem;
+}
+
+
+
+@font-face{
+    font-family: 'PreLight';
+    src:url('../../assets/fonts/Pretendard-Light.ttf')
+}
+.nomore{
+    height: 2rem;
+    background-color: white;
+}

@@ -1,0 +1,70 @@
+#Pot-enroll{
+    overflow: hidden;  
+    white-space: nowrap;
+    word-break:break-all;
+}
+
+#video{
+    left: -350px !important;
+}
+
+.circle-btn {
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    color: #329E5D;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    width: 100px;
+    height: 100px;
+}
+
+.circle-right-btn{
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    color: #329E5D;
+    position: absolute;
+    right: 9%;
+    top: 14%;
+    width: 50px;
+}
+
+.qr-reader-frame {
+    position: absolute;
+    z-index: 3;
+    top: 20%;
+    right: 2%;
+}
+
+.info-frame{
+    position: absolute;
+    z-index: 1;
+    bottom: 15%;
+    width: 100%;    
+    text-align: left;
+}
+
+.info-wrapper{
+    margin: 0 5%;
+    border-radius: 40px;
+    background-color: #FFF9E9;
+    padding: 3% 7%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.info-wrapper .hTag {
+    font-size: 1.4em;
+    color: #329E5D;
+}
+
+.info-wrapper .pTag{
+    font-size: 1em;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}

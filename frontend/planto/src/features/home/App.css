@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.appbody {
+  background: url(../../assets/background/appback.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'RIDIBatang';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.apptext{
+  font-family: 'RIDIBatang'
+}
+
+.appback{
+  width:100%;
+  
+}
+
+
+/* 웹일떄 */
+@media (min-width:650px) {
+  .mobile{
+    display: none;
+  }
+  .web{
+    
+  }
+}
+/* 모바일일때 */
+@media  (max-width:650px) {
+  .mobile{
+
+  }
+  .web{
+    display: none;
+
+  }
+}
+
+.web2{
+  padding:5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webtitle{
+  font-size: 7vw;
+  color:#329E5D;
+  text-align: center;
+}
+.websubtext{
+  font-size: 1.2vw;
+  color:#a4a4a4
+
+}
+.webqr{
+  align-items: center;
+  margin-top:3vh;
+}
