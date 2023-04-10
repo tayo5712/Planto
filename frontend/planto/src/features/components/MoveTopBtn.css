@@ -1,0 +1,10 @@
+.warrap_btn{
+    position: fixed;
+    width: 7rem;
+    top:80%;
+    left:18rem;
+}
+
+.btn:active { border: none !important; box-shadow: none !important; }
+
+.btn:focus { border: none !important; box-shadow: none !important; }

@@ -1,0 +1,78 @@
+.dictionary{
+    background-color: #FAF8F8;
+    padding:1.5rem;
+}
+
+
+.searchBar{
+    margin-left: 14%;
+    margin-bottom: 1rem;
+    padding:0.5rem;
+    text-align: center;
+    width: 70%;
+    background-color: rgb(62, 126, 62);
+    color:white;
+    border-radius: 20px;
+}
+
+.plant_category{
+    margin-left: 0.4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    text-align: center;
+
+}
+.category{
+    margin: 0.7rem;
+    
+}
+.dictIcon{
+    width:4rem;
+    border-radius: 1.3rem;
+}
+.tag_text{
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+}
+.plant_card{
+    margin:auto;
+    display: flex;
+    width:21.5rem;
+    height:6.5rem;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow:0px 0px 0.5rem rgba(0, 0, 0, .1);
+}
+
+.img_circle{
+    width: 5rem;
+    height: 5rem;
+    margin: 0.8rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.plant_name{
+    font-size:1.2rem;
+
+}
+
+.plant_name_eng{
+    width: 9rem;
+    height: 1rem;
+    margin-bottom: 0.2rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 0.8rem;
+    color:#a4a4a4;
+}
+
+.plant_name_second{
+    font-size: 0.8rem;
+}
+
+input::placeholder {
+    font-size: .9rem
+  }

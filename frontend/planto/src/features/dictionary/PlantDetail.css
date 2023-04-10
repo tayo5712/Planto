@@ -1,0 +1,54 @@
+
+
+.Line{
+    width:100%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border:solid 0.2px #efefef;
+}
+
+.plantName{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.plantNameSecond{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.plantNameEng{
+    text-align: center;
+    font-size: 0.7rem;
+    color: #a1a1a1;
+}
+.infoTitle{
+    color:#329E5D;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.infobox{
+    margin: auto;
+    width: 20rem;
+    height: 8.5rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow:0px 0px 0.5rem rgba(0, 0, 0, .1);
+}
+
+
+.infocondition{
+    display: flex;
+    margin: 0.6rem;
+}
+.infoIcon{
+    width:1.5rem;
+    border-radius: 0.3rem;
+    
+}
+.infotext{
+    font-size: 0.8rem;
+
+}

@@ -1,0 +1,57 @@
+.reward_top_wrapped{
+    display: flex;
+    justify-content: space-between;
+}
+.reward_message{
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+
+}
+.rewardText{
+    background-color: #329E5D;
+    border-radius: 1rem;
+    height:2rem;
+    color:white;
+    text-align: center;
+    padding: .2rem;
+    margin:.4rem;
+}
+.reward_img {
+
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.imgTag{
+    width: 70px;
+    height: 70px;
+    background-color: #E1F2DB;
+    border-radius: 10px;
+    
+    /* border-radius: ; */
+}
+
+.achievement-frame{
+    display: inline-block;
+    margin: 2%;
+    text-align: center;
+}
+
+.rewardsubtitle{
+    font-size: 1.5rem;
+}
+
+.rewardname{
+    font-size:1.6rem;
+    color:black;
+}
+.rewardsub{
+    font-size: 1.1rem;
+    word-break: break-all;
+    color:#a4a4a4;
+}
